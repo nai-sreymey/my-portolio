@@ -1,9 +1,9 @@
 body{
-    background-color: black;
+    background-color:#00A1D4;
 }
 .container{
-    width: 760px;
-    height: 80px;
+    width: 1440px;
+    height: 1024px; 
     margin: auto;
     display: flex;
     justify-content: space-evenly;
@@ -11,13 +11,14 @@ body{
 }
 .container img{
     position: absolute;
-    left: -570px;
+    left: -230px;
     top: 0;
 }
 .box1{
-    width: 80px;
+    width: 100px;
     height: 43px;
-    background-color: orange;
+    flex-shrink: 0; 
+    background-color: #B6A727;;
     font-size: 21px;
     color: white;
 
@@ -25,67 +26,69 @@ body{
 .box2{
     width: 90px;
     height: 43px;
-    background-color: orange;
+    background-color:#27ADB6;;
     font-size: 21px;
-    color: white;
+    color:  #FFF;
 
 }
 .box3{
     width: 110px;
     height: 43px;
-    background-color: orange;
+    background-color: #27ADB6;
     font-size: 21px;
-    color: white;
+    color:  #FFF;
 
 }
 .box4{
     width: 100px;
     height: 43px;
-    background-color: orange;
+    background-color: #27ADB6;
     font-size: 21px;
-    color: white;
-
+    color:  #FFF;
 }
 .box5{
-    width: 520px;
+    width: 560px;
     height: 90px;
-    background-color: rgb(190, 161, 27);
-    margin: auto;
-    font-size: 60px;
-    color: white;
-    .container{
-        width: 760px;
-        height: 80px;
-        margin: auto;
-        display: flex;
-        justify-content: space-evenly;
-        position: relative;
-    }
-
+    flex-shrink: 0; 
+    background: #D96728;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    position: absolute;
+    top: 120px;
+    left: 630px;
 }
 .box6{
-    width: 250px;
-    height: 30px;
-    margin: auto;
-    font-size: 22px;
-    color:white;
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
+position: absolute;
+top: 240px;
+    left: 800px;
+}
+.container1{
+    position: absolute;
+    top: 230px;
+    left: 500px;
 }
 .box7{
-    width: 65px;
-    height: 65px; 
-    margin: auto;
-    font-size: 65px;
+    width: 1910.256px;
+    height: 1px; 
+    background-color: #FFF;
+    position: absolute;
+    top: 420px;
 }
-.box8{
-    width: 65px;
-    height: 65px; 
-    margin: auto;
-    font-size: 65px;
-}
-.box9{
-    width: 65px;
-    height: 65px; 
-    margin: auto;
-    font-size: 65px;
-}
+.box-pic{
+    width: 400px;
+    height: 500px; 
+    background-color: #FFF;
+    position: absolute;
+    top: 450px;
 
+}
